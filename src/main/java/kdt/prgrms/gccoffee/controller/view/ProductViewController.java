@@ -1,4 +1,4 @@
-package kdt.prgrms.gccoffee.controller;
+package kdt.prgrms.gccoffee.controller.view;
 
 import kdt.prgrms.gccoffee.dto.CreateProductRequest;
 import kdt.prgrms.gccoffee.model.Product;
@@ -11,11 +11,11 @@ import org.springframework.web.bind.annotation.PostMapping;
 import java.util.List;
 
 @Controller
-public class ProductController {
+public class ProductViewController {
 
     private final ProductService productService;
 
-    public ProductController(ProductService productService) {
+    public ProductViewController(ProductService productService) {
         this.productService = productService;
     }
 
