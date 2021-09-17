@@ -17,6 +17,10 @@ public class Email {
         this.address = address;
     }
 
+    public String getAddress(){
+        return address;
+    }
+
     private static boolean checkAddress(String address) {
         return Pattern.matches("\\b[\\w\\.-]+@[\\w\\.-]+\\.\\w{2,4}\\b", address);
     }
