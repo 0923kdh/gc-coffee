@@ -2,7 +2,7 @@ import React from "react";
 
 export function Product(props){
     const productName = props.productName;
-    const category = props.catagory;
+    const category = props.category;
     const price = props.price;
     return(
         <React.Fragment>
