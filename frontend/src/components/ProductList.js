@@ -1,7 +1,7 @@
 import React from "react";
 import {Product} from "./Product";
 
-export function ProductList({products =[], onAddClick}){
+export function ProductList({products = [], onAddClick}) {
     return (
         <React.Fragment>
             <h5 className="flex-grow-0"><b>상품 목록</b></h5>

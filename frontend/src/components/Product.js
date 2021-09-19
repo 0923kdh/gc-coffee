@@ -1,6 +1,6 @@
 import React from "react";
 
-export function Product(props){
+export function Product(props) {
     const productId = props.productId;
     const productName = props.productName;
     const category = props.category;
